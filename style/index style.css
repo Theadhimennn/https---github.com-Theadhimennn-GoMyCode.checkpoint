@@ -1,0 +1,88 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url(../img/Blue\ night\ sky_3840x2400.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    
+}
+nav h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: -1px;
+    font-weight: bolder;
+    letter-spacing: -3px;
+    color: rgb(229, 229, 229);
+}
+nav h1 span{
+    color: rgb(252, 163, 17);
+}
+header{
+    margin-top: 50px;
+}
+
+main{
+    color: rgb(229, 229, 229);
+    
+}
+
+section h3 {
+    position: relative;
+    left: 40%;
+    bottom: 60px;
+}
+
+section h1{
+    position: relative;
+    left: 25%;
+    bottom: 35px;
+    letter-spacing: 20px;
+}
+section h2 {
+    position: relative;
+    left: 35.4%;
+    bottom: 55px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1;
+}
+section h2 span {
+    color: rgb(252, 163, 17);
+}
+section button {
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 30px;
+    background-color: transparent;
+    width: 145px;
+    height: 50px;
+    position: relative;
+    left: 43%;
+    bottom: 75px;
+    
+}
+section button a {
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+section button:hover{
+    border: 1px solid transparent;
+    background-color: rgb(252, 163, 17);
+    transition: 1.2s;
+    transform: scale(1.5);
+}
+
+section p {
+    position: relative;
+    left: 38.1%;
+    top: 65px;
+
+}

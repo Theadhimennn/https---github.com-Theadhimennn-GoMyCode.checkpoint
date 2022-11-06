@@ -5,102 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <title>Home - Here You Can Find our Works, Resume, Everything About Us, and Our Contact</title>
+    <link rel="stylesheet" href="style/home style.css">
 </head>
 
 <body>
-    <header>
-        <nav id="Back">
-            <img src="pictures/logo.png" alt="Porfolio logo" height="150" width="150">
-            <a href="home.html">Home</a>
-            <a href="works.html">Works</a>
-            <a href="resume.html">Resume</a>
-            <a href="#Contact Us">Contact Us</a>
-        </nav>
-    </header>
-    <main>
-        <h1>WEBSITE DEVELOPMENT</h1>
-        <p>Guiding your business to achieve online success</p>
-        <a href="#About Us"><img src="pictures/Down Arrow.png" alt="Scroll down"></a>
-        <hr>
-        <section>
-            <!--I will put every element in a little table but With CSS-->
-            <h1 id="About Us">About Us!</h1>
-            <img src="pictures/Man Pic.png" alt="My Virtual Picture" height="400">
-            <article>
-                <p>Hello My name is Khaled Adhimen, the owner and this is my own team... adhimen is a full
-                    service digital agency based in the heart of north africa. adhimen's mission is to provide cost
-                    effective digital design services which are focused around providing the best possible return for
-                    our clients
-                    investment, and best design and quality</p>
-                <a href="#Our Services"><img src="pictures/Down Arrow.png" alt="Scroll down"></a>
-            </article>
-            <hr>
+    <div class="background">
+        <header>
+            <nav class="nav">
+                <img src="img/logo.png" alt="">
+                <p class="logo"><span>Adh</span>imen Portfolio</p>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="#Contact Us">Contact Us</a></li>
+                </ul>
+                <a href="#" class="button">Subscribe</a>
+
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <h4>Welcome to My Portfolio Here:</h4>
+                <h1>WEBSITE DEVELOPMENT</h1>
+                <h3>Guiding your business to achieve online success...</h3>
+            </div>
+            <div class="contact">
+                <h1>Wanna Start Your Website..<span>??</span></h1>
+                <form class="style">
+                    <input name="name" type="text" class="name" placeholder="Name" />
+                    <input name="email" type="email" placeholder="Email" class="mail" />
+                    <input type="submit" value="LET'S START" class="send" />
+
+                </form>
+                <a href="#About Us"><img src="pictures/Down Arrow.png" alt="Scroll down" class="arrow"></a>
+            </div>
+    </div>
+
+    <br>
+    <div class="body">
+        <section class="about">
+            <div class="main">
+                <img src="img/my picture 2.png">
+                <div class="About-text">
+                    <h2 id="About Us">About Us!</h2>
+                    <h5>Develope <span>& Design</span></h5>
+                    <p>Hello My name is <span>Khaled Adhimen,</span> the owner and this is my own team... adhimen is
+                        a full
+                        service digital agency based in the heart of north africa. adhimen's mission is to provide
+                        cost
+                        effective digital design services which are focused around providing the best possible
+                        return
+                        for
+                        our clients
+                        investment, and best design and quality
+                    </p>
+                    <button type="button"> <a href="# Our Services">Discover!</a></button>
+                </div>
+
+            </div>
         </section>
 
         <div>
-            <table id="Our Services" class="services-content display-none">
+            <table id=" Our Services" class="table">
                 <tbody>
                     <tr>
-                        <td>
+                        <td id="td1">
                             <img src="pictures/web development.png" normal-src="web designer.png" alt="Web Design Logo">
-                            <h3>Web Development</h3>
-                            <p>Our team of experienced developers can help you to realise
-                                your
-                                digital ambitions. Whether, it is a bespoke web
-                                application or a content managed website our passionate team can help.
-                            </p>
+                            <div class="table-letters">
+                                <h3 id="Web-deve">Web Development</h3>
+                                <p>Our team of experienced developers can help you to realise
+                                    your
+                                    digital ambitions. Whether, it is a bespoke web
+                                    application or a content managed website our passionate team can help.
+                                </p>
+                            </div>
                         </td>
-                        <td>
+                        <td id="td2">
                             <img src="pictures/back-end.png" normal-src="back-end.png" alt="Back-end developers">
-                            <h3>Back-end Services</h3>
-                            <p>Get the best back-end services, with complete stability for
-                                your
-                                site.</p>
+                            <div class="table-letters">
+                                <h3>Back-end Services</h3>
+                                <p>Get the best back-end services, with complete stability for
+                                    your
+                                    site.</p>
+                            </div>
 
                         </td>
                     </tr>
 
                     <tr>
-                        <td>
+                        <td id="td3">
                             <img src="pictures/web security.png" alt=" Web Security enginier">
-                            <h3 Full Security</h3>
+                            <div class="table-letters">
+                                <h3> Full Security</h3>
                                 <p>
-                                    with our team, we can get the full security of your website and clients to have full
+                                    with our team, we can get the full security of your website and clients to
+                                    have
+                                    full
                                     privacy.
                                 </p>
+                            </div>
                         </td>
-                        <td>
+                        <td id="td4">
                             <img src="pictures/SEO.png" alt="SEO Engener">
-                            <h3>SEO initialization</h3>
-                            <p>
-                                We have engineers who specialize in SEO, so what do you expect the result of your site
-                                to be?
-                            </p>
+                            <div class="table-letters">
+                                <h3>SEO initialization</h3>
+                                <p>
+                                    We have engineers who specialize in SEO, so what do you expect the result of
+                                    your
+                                    site
+                                    to be?
+                                </p>
+                            </div>
                         </td>
                     </tr>
 
                     <tr>
-                        <td>
+                        <td id="td5">
                             <img src="pictures/web designer yellow.png" alt="web design logo">
-                            <h3>Web Design</h3>
-                            <p>
-                                Adhimen use the latest techniques to maintain that your customers have a great
-                                online
-                                experience
-                                with beauty design.
-                                Just a few of our skills include wireframing, prototyping and user testing <a
-                                    href="works.html">Check here Our Works</a>.
-                            </p>
+                            <div class="table-letters">
+                                <h3>Web Design</h3>
+                                <p>
+                                    Adhimen use the latest techniques to maintain that your customers have a great
+                                    online
+                                    experience
+                                    with beauty design.
+                                    Just a few of our skills include wireframing, prototyping and user testing.
+                                </p>
+                            </div>
                         </td>
-                        <td>
+                        <td id="td6">
                             <img src="pictures/copyright.png" alt="Professional Copywriting Services">
-                            <h3>Copywriting</h3>
-                            <p>
-                                Every website we develop has at least one thing in common... Content. We often hear how
-                                tedious
-                                writing content for your own site can be. So why not let the experts here help?
-                            </p>
+                            <div class="table-letters">
+                                <h3>Copywriting</h3>
+                                <p>
+                                    Every website we develop has at least one thing in common... Content. We often
+                                    hear
+                                    how
+                                    tedious
+                                    writing content for your own site can be. So why not let the experts here help?
+                                </p>
+                            </div>
                         </td>
                     </tr>
                 </tbody>
@@ -109,58 +158,34 @@
 
 
         </div>
-        <div>
-            <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="showcase">
             <h1>Showcase</h1>
-            <p>Check here our works</p>
-            <small>Press at video </small>
-            <a href="works.html" target="_blank"><video controls autoplay muted>
-                    <source src="video/Website showcase.mp4" type="video/mp4">
-                </video></a>
+            <h3>Check here our works</h3>
+            <video controls autoplay muted>
+                <source src="video/Website showcase.mp4" type="video/mp4">
+            </video>
         </div>
         <hr>
+    </div>
 
-        <footer>
+    <footer>
+        <h1 id="Contact Us">Contact Us!</h1>
+        <div>
+            <a href="https://www.gmail.com"><img src="pictures/mail logo.png" alt="mail logo"></a>
+            <a href="https://www.github.com"><img src="pictures/github logo.png" alt="github logo"></a>
+            <a href="https://www.facebook.com"><img src="pictures/facebook logo.png" alt="facebook logo"></a>
+            <a href="https://www.instagram.com"><img src="pictures/instagram logo.png" alt="ig logo"></a>
+            <a href="https://www.twitter.com"><img src="pictures/twitter logo.png" alt="twitter logo"></a>
+            <a href="https://www.linkdin.com"><img src="pictures/linkdin.png" alt="ln logo"></a>
+            <a href=""><img src="pictures/Up arrow.png" alt="#back" height="20" width="20"></a>
+        </div>
+        <small>All copyright saved to GoMyCode!</small>
 
-
-            <div>
-                <form>
-                    <h1>Fast Contact!</h1>
-
-                    <p class="name">
-                        <input name="name" type="text" class="only letters" placeholder="Name" id="name" />
-                    </p>
-
-                    <p class="email">
-                        <input name="email" type="email" class="mail" id="email" placeholder="Email" />
-                    </p>
-
-                    <p class="text">
-                        <textarea name="text" class="validate.feedback-input" id="comment"
-                            placeholder="Comment"></textarea>
-                    </p>
-
-
-                    <div class="submit">
-                        <input type="submit" value="SEND" id="button" />
-                        <div class="ease"></div>
-                    </div>
-                </form>
-                <hr>
-            </div>
-            </form>
-            <h1 id="Contact Us">Contact Us!</h1>
-            <div>
-                <a href="https://www.gmail.com"><img src="pictures/mail logo.png" alt="mail logo"></a>
-                <a href="https://www.github.com"><img src="pictures/github logo.png" alt="github logo"></a>
-                <a href="https://www.facebook.com"><img src="pictures/facebook logo.png" alt="facebook logo"></a>
-                <a href="https://www.instagram.com"><img src="pictures/instagram logo.png" alt="ig logo"></a>
-                <a href="https://www.twitter.com"><img src="pictures/twitter logo.png" alt="twitter logo"></a>
-                <a href="https://www.linkdin.com"><img src="pictures/linkdin.png" alt="ln logo"></a>
-                <a href=""><img src="pictures/Up arrow.png" alt="#back" height="20" width="20"></a>
-            </div>
-
-        </footer>
+    </footer>
 
 
 
